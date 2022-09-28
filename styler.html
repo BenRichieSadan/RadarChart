@@ -1,0 +1,24 @@
+<div data-ng-controller="plugin-RadarChart.controllers.stylerController">
+
+    <div class="settings-pane-host">
+        <div class="pane-row">
+            <div class="type-title" data-translate="CHART_STYLER.LINE.TYPE_TITLE">Line Type</div>
+            <div class="types-holder" stretch-max-type-item="" style="display: flex;">
+                <!---->
+                <div data-ng-class="{ selected: model.isRoundStrokes == false }"
+                    data-ng-click="isRoundStrokesTick(false)" class="col-type-item"
+                    data-ng-style="{width: typeElementWidth+'px'}" style="width: 110px;">
+                    <div class="type-icon" chart-type="line-basic"></div>
+                    <div class="type-caption">Straight</div>
+                </div>
+                <!---->
+                <div data-ng-class="{ selected: model.isRoundStrokes == true }" data-ng-click="isRoundStrokesTick(true)"
+                    class="col-type-item" data-ng-style="{width: typeElementWidth+'px'}" style="width: 110px;">
+                    <div class="type-icon" chart-type="line-spline"></div>
+                    <div class="type-caption">Smooth</div>
+                </div>
+                <!---->
+            </div>
+        </div>
+    </div>
+</div>

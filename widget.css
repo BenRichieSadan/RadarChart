@@ -1,0 +1,29 @@
+select {
+	padding: 8px;
+	margin-bottom: 10px;
+}
+
+.description {
+	pointer-events: none;
+	position: absolute;
+	font-size: 18px;
+	text-align: center;
+	background: white;
+	padding: 10px 15px;
+	z-index: 50;
+	height: fit-content;
+	line-height: 30px;
+	margin: 0 auto;
+	color: #21669e;
+	border-radius: 5px;
+	box-shadow: 0 0 0 1px #eee;
+	-moz-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	-webkit-transform: translateX(-50%);
+	transform: translateX(-50%);
+	display: none;
+}
+
+.description.active {
+	display: block;
+}

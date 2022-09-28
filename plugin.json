@@ -1,0 +1,16 @@
+{
+    "name": "RadarChart",
+    "source": [
+        "d3.v3.5.6.js",
+        "radarChart.js",
+        "stylerController.js",
+        "widget.js"
+    ],
+    "style": [
+        "widget.css"
+    ],
+    "folderName": "RadarChart",
+    "lastUpdate": "2020-02-10T17:57:55.693Z",
+    "isEnabled": true,
+    "version": "1.0.0"
+}
